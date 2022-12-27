@@ -1,0 +1,3 @@
+[submodule "parrot.live"]
+	path = parrot.live
+	url = https://github.com/hugomd/parrot.live
