@@ -1,5 +1,5 @@
 # Parrot-rs
-Fast Parrot implemented by Rust
+Party Parrot implemented by Rust
 
 ## Example
 ![](./parrot.gif)

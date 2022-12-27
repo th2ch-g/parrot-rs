@@ -3,7 +3,7 @@ name = "parrot"
 version = "1.0.0"
 edition = "2021"
 authors = ["th 2022"]
-description = "Fast Parrot implemented by Rust"
+description = "Party Parrot implemented by Rust"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
