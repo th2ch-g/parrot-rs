@@ -79,6 +79,14 @@ pub fn parrot() {
 
         for i in 0..Frames::FRAME_LIST.len() {
             if bool_stop == false {
+                println!("{}", Frames::FRAME_NONE);
+                println!("{}", Frames::FRAME_NONE);
+                println!("{}", Frames::FRAME_NONE);
+                println!("{}", Frames::FRAME_NONE);
+                println!("{}", Frames::FRAME_NONE);
+                println!("{}", Frames::FRAME_NONE);
+                println!("{}Quit: q\tSpeed: [1-3]\tColor: [r, g, b, x, w]\tRestart/Stop: s", color::Fg(color::White));
+                println!("");
                 // stdout.write_all(format!("\r {} \r", Frames::FRAME_LIST[i]).as_bytes(), color::Fg(color::Red)).unwrap();
                 // stdout.write_all(format!("\r {} \r", Frames::FRAME_NONE).as_bytes()).unwrap();
                 if color == "Rainbow" {
@@ -109,8 +117,8 @@ pub fn parrot() {
                     println!("{}{}", color::Fg(color::Green), Frames::FRAME_LIST[i]);
                 }
 
-                println!("{}", Frames::FRAME_NONE);
-                println!("{}Quit: q\tSpeed: [1-3]\tColor: [r, g, b, x, w]\tRestart/Stop: s", color::Fg(color::White));
+                stdout.flush().unwrap();
+                println!("");
 
             }
             //stdout.write_all(format!("\r {} \r", "Quit: q\tSpeed: [1-3]\tColor: [r, g, b, x]\tRestart/Stop: s").as_bytes()).unwrap();
