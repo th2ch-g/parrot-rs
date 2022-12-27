@@ -6,17 +6,9 @@ Fast Parrot implemented by Rust
 
 ## Run!!
 ~~~
-git clone https://github.com/th2ch-g/parrot-rs.git && \
-cd ./parrot-rs && \
-cargo run
+cargo install --git https://github.com/th2ch-g/parrot-rs && parrot
 ~~~
 
-## Compile as Binary
-~~~
-git clone https://github.com/th2ch-g/parrot-rs.git && \
-cd ./parrot-rs && \
-cargo build
-~~~
 
 ## Reference
 - [parrot.live](https://github.com/hugomd/parrot.live)
