@@ -1,6 +1,6 @@
 [package]
 name = "parrot"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 authors = ["th 2022"]
 description = "Party Parrot implemented by Rust"

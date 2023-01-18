@@ -21,7 +21,6 @@ impl Frames {
 \r
 \r
 ";
-
     // parrot frame list
     // These frame is made from parrot.live. (see gitsubmodule path for more information)
     // CMD: ls ../parrot.live/frames/*.txt | while IFS= read -r line; do echo '"'; cat $line; echo '",'; done >> frames.rs
@@ -47,7 +46,7 @@ impl Frames {
 \r  .lo;,:cdkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkd,.c;
 \r,dx:..;lllllllllllllllllllllllllllllllllc'...
 \rcNO;........................................
-",
+\r",
 "
 \r                .ckx;'........':c.
 \r             .,:c:::::oxxocoo::::,',.
@@ -228,5 +227,4 @@ impl Frames {
 \r,xl::,..,cccccccccccccccccccccccccccccccc:;':xx,
 \rcNd.........................................;lOc
 \r",];
-
 }
